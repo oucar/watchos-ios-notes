@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Notes Watch App
+//  NotesApp Watch App
 //
-//  Created by Onur Ucar on 3/12/24.
+//  Created by Onur Ucar on 3/18/24.
 //
 
 import SwiftUI
