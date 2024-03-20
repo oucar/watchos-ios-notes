@@ -13,6 +13,8 @@
 		BA624D722BA80C35006E2AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA624D712BA80C35006E2AB4 /* Assets.xcassets */; };
 		BA624D752BA80C35006E2AB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA624D742BA80C35006E2AB4 /* Preview Assets.xcassets */; };
 		BA624D832BA80E25006E2AB4 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA624D822BA80E25006E2AB4 /* Note.swift */; };
+		BA83C63A2BAAA79A004872A2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83C6392BAAA79A004872A2 /* DetailView.swift */; };
+		BA83C63C2BAAA884004872A2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA83C63B2BAAA884004872A2 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BA624D712BA80C35006E2AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA624D742BA80C35006E2AB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA624D822BA80E25006E2AB4 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		BA83C6392BAAA79A004872A2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BA83C63B2BAAA884004872A2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				BA624D6F2BA80C34006E2AB4 /* ContentView.swift */,
+				BA83C6392BAAA79A004872A2 /* DetailView.swift */,
+				BA83C63B2BAAA884004872A2 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,7 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA83C63C2BAAA884004872A2 /* SettingsView.swift in Sources */,
 				BA624D702BA80C34006E2AB4 /* ContentView.swift in Sources */,
+				BA83C63A2BAAA79A004872A2 /* DetailView.swift in Sources */,
 				BA624D6E2BA80C34006E2AB4 /* NotesAppApp.swift in Sources */,
 				BA624D832BA80E25006E2AB4 /* Note.swift in Sources */,
 			);
@@ -350,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NotesApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = J6R7BY72RV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = NotesApp;
@@ -379,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NotesApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = J6R7BY72RV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = NotesApp;
@@ -407,6 +417,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6R7BY72RV;
 				INFOPLIST_KEY_CFBundleDisplayName = NotesApp;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = oucar.NotesApp;
@@ -422,6 +433,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J6R7BY72RV;
 				INFOPLIST_KEY_CFBundleDisplayName = NotesApp;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = oucar.NotesApp;
