@@ -8,11 +8,32 @@
 import SwiftUI
 
 struct CreditsView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+  var body: some View {
+    VStack(spacing: 3) {
+      // Profile image
+      Image("developer-no1")
+        .resizable()
+        .scaledToFit()
+        .layoutPriority(1)
+      
+      HeaderView(title: "Credits")
+      
+      Text("Onur Ucar")
+        .foregroundColor(.primary)
+        .fontWeight(.bold)
+      
+      Text("Software Engineer")
+        .font(.footnote)
+        .foregroundColor(.secondary)
+        .fontWeight(.light)
+    } //: VSTACK
+  }
 }
 
-#Preview {
+// MARK: - PREVIEW
+
+struct CreditsView_Previews: PreviewProvider {
+  static var previews: some View {
     CreditsView()
+  }
 }
